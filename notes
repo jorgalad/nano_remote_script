@@ -1,0 +1,29 @@
+Check 'Launch Controls XL' scripts
+
+- Get the Framework folder
+
+
+OOP -> Explain what it is
+- Inversion of Control
+- Such as build_midi_map
+-
+
+
+_create controls
+
+- Make all controls
+
+-- Mixer
+--- SliderElement
+--- EncoderElement
+--- ButtonElement -> Use ButtonMatrixElement to map all the CC's
+
+
+
+
+
+
+
+Python Native Functions:
+__function
+
