@@ -78,7 +78,7 @@ class Nano(ControlSurface):  # Create a class
 
         # MODE BUTTONS
         self._regular_mode_button = make_button(41, 'Regular_Mode_Button')
-        self._api_mode_button = make_button(45, 'API_Mode_Button')
+        self._shift_mode_button = make_button(45, 'Shift_Mode_Button')
 
     def msg_test(self):
         self.log_message('======================= Oh hi! ======================= ')
@@ -119,7 +119,7 @@ class Nano(ControlSurface):  # Create a class
                                                                           solo_buttons=self._solo_buttons,
                                                                           mute_buttons=self._mute_buttons,
                                                                           arm_buttons=self._arm_buttons)))
-        self._modes.add_mode('api_mode', (
+        self._modes.add_mode('shift_mode', (
             AddLayerMode(self._device, Layer(parameter_controls=self._encoders,
                                              on_off_button=self._solo_buttons[6])),
 
@@ -137,7 +137,7 @@ class Nano(ControlSurface):  # Create a class
                                              dev_reset_button=self._solo_buttons[7]))))
 
         self._modes.layer = Layer(regular_mode_button=self._regular_mode_button,
-                                  api_mode_button=self._api_mode_button)
+                                  shift_mode_button=self._shift_mode_button)
 
         self._modes.selected_mode = 'regular_mode'
         self._on_selected_mode.subject = self._modes
@@ -149,7 +149,7 @@ class Nano(ControlSurface):  # Create a class
         if mode == 'regular_mode':
             self.show_message('Regular Mode')
         else:
-            self.show_message('API Mode')
+            self.show_message('Shift Mode')
 
     # When the session box moves, show which tracks we're controlling
     @subject_slot('offset')

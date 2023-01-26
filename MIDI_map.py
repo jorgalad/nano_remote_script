@@ -13,10 +13,9 @@
 # MUTE          = MUTE
 # RECORD        = RECORD ARM
 
-# =============== API MODE ===============
+# =============== SHIFT MODE ===============
 # ENCODERS      = DEVICE CONTROLS
 # SLIDERS       = VOLUME
-
 # SOLO [0]      = GLOBAL REQ
 # SOLO [1]      = TAP TEMPO
 # SOLO [2]      = UNMUTE ALL
@@ -26,7 +25,6 @@
 # SOLO [6]      = DEVICE OFF
 # SOLO [7]      = DEVICE RESET
 # MUTE [0-7]    = LAUNCH CLIPS IN GRID
-
 # REC [0-7]     = SELECT TRACKS 1-8
 
 
