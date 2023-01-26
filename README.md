@@ -3,7 +3,7 @@
 ### Instructions
 Before using the script make sure you reset your controller to the factory settings.
 1. Download the remote script from the manufacturer's website.
-2. Manually create a folder called “Remote Scripts” within your User Library 
+2. Manually create a folder called “Remote Scripts” within your User Library   
 The default User Library location:  
 &nbsp;&nbsp;&nbsp;  *Windows: \Users\[username]\Documents\Ableton\User Library*  
 &nbsp;&nbsp;&nbsp; *Mac: Macintosh HD/Users/[username]/Music/Ableton/User Library*
