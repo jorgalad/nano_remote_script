@@ -16,7 +16,7 @@ from _Framework.DeviceComponent import DeviceComponent
 
 # Local Imports
 from .nanoCustom import MyCustomComponent
-from .MIDI_map import *
+from .GLOBALS import *
 
 # 0 = Note
 # 1 = CC
