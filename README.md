@@ -1,6 +1,6 @@
 # An Ableton Remote script for nanoKONTROL2
 Note: This repository is part of my "Learning Python with Ableton" video course, which you can find right here:
-https://www.udemy.com/learning-python-with-ableton-live
+https://www.courses.subjectsound.com
 
 ### Instructions
 Before using the script make sure you reset your controller to the factory settings.
